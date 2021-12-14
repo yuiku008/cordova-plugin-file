@@ -1,16 +1,16 @@
 {
-  "_from": "vx-app-plugin-file2@>=5.0.0",
-  "_id": "vx-app-plugin-file2@6.0.2",
+  "_from": "cordova-plugin-file@>=5.0.0",
+  "_id": "cordova-plugin-file@6.0.2",
   "_inBundle": false,
-  "_integrity": "sha512-91757b6f03ab25bfbb0882b0c340833813a65382d2e2dd694dd4eb3fb6cbb662",
-  "_location": "/vx-app-plugin-file2",
+  "_integrity": "sha512-m7cughw327CjONN/qjzsTpSesLaeybksQh420/gRuSXJX5Zt9NfgsSbqqKDon6jnQ9Mm7h7imgyO2uJ34XMBtA==",
+  "_location": "/cordova-plugin-file",
   "_phantomChildren": {},
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "vx-app-plugin-file2@>=5.0.0",
-    "name": "vx-app-plugin-file2",
-    "escapedName": "vx-app-plugin-file2",
+    "raw": "cordova-plugin-file@>=5.0.0",
+    "name": "cordova-plugin-file",
+    "escapedName": "cordova-plugin-file",
     "rawSpec": ">=5.0.0",
     "saveSpec": null,
     "fetchSpec": ">=5.0.0"
@@ -19,12 +19,19 @@
     "#USER",
     "/"
   ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-file/-/cordova-plugin-file-6.0.2.tgz",
+  "_shasum": "f3911479f8357e9aacb5576674f8d95b31a1fb20",
+  "_spec": "cordova-plugin-file@>=5.0.0",
+  "_where": "/Users/nickxin/_work_space/vxapp",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
   "bugs": {
-    "url": "https://github.com/yuiku008/cordova-plugin-file/issues"
+    "url": "https://github.com/apache/cordova-plugin-file/issues"
   },
   "bundleDependencies": false,
   "cordova": {
-    "id": "vx-app-plugin-file2",
+    "id": "cordova-plugin-file",
     "platforms": [
       "android",
       "browser",
@@ -54,7 +61,7 @@
       }
     }
   },
-  "homepage": "https://github.com/yuiku008/cordova-plugin-file#readme",
+  "homepage": "https://github.com/apache/cordova-plugin-file#readme",
   "keywords": [
     "cordova",
     "file",
@@ -66,18 +73,15 @@
     "cordova-windows"
   ],
   "license": "Apache-2.0",
-  "name": "vx-app-plugin-file2",
+  "name": "cordova-plugin-file",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuiku008/cordova-plugin-file"
+    "url": "git+https://github.com/apache/cordova-plugin-file.git"
   },
   "scripts": {
     "eslint": "node node_modules/eslint/bin/eslint www && node node_modules/eslint/bin/eslint src && node node_modules/eslint/bin/eslint tests",
     "test": "npm run eslint"
   },
   "types": "./types/index.d.ts",
-  "version": "6.0.2",
-  "dependencies": {
-    "user": "0.0.0"
-  }
+  "version": "6.0.2"
 }
